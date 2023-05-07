@@ -21,14 +21,11 @@ print("Current date and time:", date_time_string)
 # environment variables from the .env file.
 ######################################################
 
-# os.environ['DOTENV_LOAD'] = 'False'
-
 # If we are in a local environment, load the environment variables
 # from the .env file.
-# if os.getenv("LOCAL_ENVIRONMENT") == "TRUE":
-#     from dotenv import load_dotenv
 
-#     load_dotenv()
+# from dotenv import load_dotenv
+# load_dotenv()
 ######################################################
 
 mongo_db_username = os.getenv("MONGO_DB_USERNAME")
