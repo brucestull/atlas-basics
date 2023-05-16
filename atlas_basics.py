@@ -4,7 +4,7 @@ import os
 
 
 ######################################################
-# Code for testing date and time inclusion:
+# Code date-time inclusion:
 ######################################################
 import datetime
 
@@ -24,8 +24,8 @@ print("Current date and time:", date_time_string)
 # If we are in a local environment, load the environment variables
 # from the .env file.
 
-# from dotenv import load_dotenv
-# load_dotenv()
+from dotenv import load_dotenv
+load_dotenv()
 ######################################################
 
 mongo_db_username = os.getenv("MONGO_DB_USERNAME")
